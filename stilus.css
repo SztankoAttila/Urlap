@@ -1,0 +1,23 @@
+h1 {
+    border: hidden hidden dotted hidden ;
+}
+.csillag::after {
+    content:" * ";
+    color: red;
+}
+#mentes {
+    background-color: green;
+    color: white;
+    width: 10cm;
+    height: auto;
+}
+td {
+    width: auto;
+}
+{
+    border-top: gray dotted 10px;
+}
+h3 {
+    padding: 8px;
+    border-bottom: dotted gray 1px;
+}

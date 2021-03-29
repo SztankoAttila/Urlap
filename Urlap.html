@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <h3>Szállítási cím módosítása</h3>
+    <table>
+        <form>
+            <tr>
+                <td ><label for="nev" class="csillag" id="border1">Név</label></td>
+                <td><label for="telefon" class="csillag">Telefonszám</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="telefon" id="border1" required></td>
+                <td>
+                    <select required class="csillag">
+                        <option value="telefonszám">36</option>
+                    </select>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="iranyitoszam" class="csillag" id="border">Írányítószám</label></td>
+                <td><label for="varos" class="csillag">Város</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="iranyitoszam" id="border" placeholder="4032" required></td>
+                <td><select id="varos" name="varos" required class="csillag">
+                    <option value="Debrecen">Debrecen</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="orszag" class="csillag" id="border">Ország</label></td>
+                <td><label for="cim" class="csillag">Cím</label></td>
+            </tr>
+            <tr>
+                <td><select id="orszag" name="orszag" id="border" required class="csillag">
+                    <option value="Magyarország">Magyarország</option>
+                </select></td>
+                <td><input type="text" name="cim" required></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit" value="mentés" id="mentes">
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
